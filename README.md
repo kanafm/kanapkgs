@@ -5,6 +5,7 @@ This is my nix package repository.
 ## Available packages
 
 * bigfiles: quick, intuitive command to list the largest items in your current directory.
+* claude-code-native: Native build of Claude Code ([see documentation](https://code.claude.com/docs/en/overview#native-install-recommended))
 
 ## Usage
 
@@ -45,6 +46,7 @@ You can use any of the packages in my repo for your own projects. Here's an exam
 
 ## Development
 ```bash
+git add -v . && nix flake check
 nix flake show
 
 # build a package
