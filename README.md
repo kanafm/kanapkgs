@@ -2,6 +2,10 @@
 
 This is my nix package repository.
 
+## Available packages
+
+* bigfiles: quick, intuitive command to list the largest items in your current directory.
+
 ## Usage
 
 You can use any of the packages in my repo for your own projects. Here's an example of a flake.nix if you are creating a project and want it available in your dev shell or at build time:
