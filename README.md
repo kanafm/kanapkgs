@@ -6,6 +6,7 @@ This is my nix package repository.
 
 * bigfiles: quick, intuitive command to list the largest items in your current directory.
 * claude-code-native: Native build of Claude Code ([see documentation](https://code.claude.com/docs/en/overview#native-install-recommended))
+* cmux-next: kanafm fork prerelease build of cmux (DMG from [kanafm/cmux-next](https://github.com/kanafm/cmux-next)), arm64 macOS only
 
 ## Usage
 
