@@ -1,12 +1,12 @@
 { lib, stdenv, fetchurl, undmg }:
 
 let
-  version = "nix-2026.05.11-60d2cd6";
+  version = "nix-2026.05.11-79ef839";
 
   sources = {
     aarch64-darwin = {
       url = "https://github.com/kanafm/cmux-next/releases/download/${version}/cmux-macos.dmg";
-      hash = "sha256-v4r8707crV++Sj1Z5JxXtZTcU2xgVGcWdyeI0/w5lWo=";
+      hash = "sha256-aG64orhDK5RmT6FkCWEx5OECf156omXcPGZTDdUHzHM=";
     };
   };
 
