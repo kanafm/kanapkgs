@@ -2,12 +2,12 @@
 { lib, stdenv, fetchurl, autoPatchelfHook }:
 
 let
-  version = "2.1.120";
+  version = "2.1.140";
 
   sources = {
     aarch64-darwin = {
       url = "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/${version}/darwin-arm64/claude";
-      hash = "sha256-+tj69Jx7G0VMONeFt14X7b2tx/+vRQsxNJqvxlYLjvY=";
+      hash = "sha256-CHznMvt5ZYzT6CjMN3KR3FaDX8UxjNUZEjsIgKCRScA=";
     };
     x86_64-darwin = {
       url = "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/${version}/darwin-x64/claude";

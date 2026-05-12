@@ -43,7 +43,7 @@ Bump the cmux-next package to the latest available release on kanafm/cmux-next. 
    git reset HEAD pkgs/cmux-next/default.nix
    Inform the user of the failure and stop.
 
-7. Commit with the kanafm identity (do NOT use the machine default git author, and do NOT add Co-Authored-By):
+7. Commit with the kanafm identity (do NOT use the machine default git author):
    git add pkgs/cmux-next/default.nix
    git -c user.name=kanafm -c user.email=kanafm@users.noreply.github.com \
        commit -m "feat: bump cmux-next to {TAG}"
