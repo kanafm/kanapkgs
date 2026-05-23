@@ -24,7 +24,7 @@ buildNpmPackage {
 
   src = patchedSrc;
 
-  npmDepsHash = "sha256-SNfQJCJv8MS4AgCQ3E63NyvEmTXk5ryUha9LZdkg5IE=";
+  npmDepsHash = "sha256-Sd+ELuDrFbVnOyhhfa533ZJ0A1MZFmJ/w0/aGJJuqsc=";
 
   npmDepsFetcherVersion = 2;
 
